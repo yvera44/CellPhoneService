@@ -51,7 +51,7 @@ public class CellPhone {
         System.out.println(
                 this.getSerialNumber() + "\n" +
                 this.getModel() + "\n" +
-                this.getCarrier() + "\n " +
+                this.getCarrier() + "\n" +
                 this.getPhoneNumber() + "\n" +
                 this.getOwner());
     }
