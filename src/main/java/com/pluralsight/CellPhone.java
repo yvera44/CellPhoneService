@@ -8,6 +8,7 @@ public class CellPhone {
         private String phoneNumber;
         private String owner;
 
+
     public Long getSerialNumber() {
         return serialNumber;
     }
@@ -53,7 +54,10 @@ public class CellPhone {
                 this.getModel() + "\n" +
                 this.getCarrier() + "\n" +
                 this.getPhoneNumber() + "\n" +
-                this.getOwner());
+                this.getOwner() + "\n");
+    }
+    public void dial(String phoneNumber) {
+        System.out.println(this.getOwner() + "'s phone is calling " + phoneNumber);
     }
 
 }

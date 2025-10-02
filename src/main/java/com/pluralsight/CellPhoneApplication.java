@@ -7,18 +7,21 @@ public class CellPhoneApplication {
         Scanner scanner = new Scanner(System.in);
 
         CellPhone phone1 = new CellPhone();
-        System.out.print("Serial number: ");
 
+        System.out.print("Serial number: ");
         phone1.setSerialNumber(12345677654321L);
         phone1.setCarrier("Carrier: T-Mobile");
         phone1.setModel("Model: iPhone 14 Pro");
         phone1.setPhoneNumber("Phone number: (800)588-2300");
         phone1.setOwner("Owner: John Cena");
+
         phone1.display();
+        phone1.dial("(773)123-1222");
 
         System.out.println("========== User Input ==========");
 
         CellPhone phone2 = new CellPhone();
+
         System.out.print("What is the serial number? ");
         phone2.setSerialNumber(scanner.nextLong());
         scanner.nextLine();
