@@ -11,7 +11,7 @@ public class CellPhoneApplication {
         phone1.setSerialNumber("Serial number: Y2J67XFF4RM9");
         phone1.setCarrier("Carrier: T-Mobile");
         phone1.setModel("Model: iPhone 14 Pro");
-        phone1.setPhoneNumber("Phone number: (800)588-2300");
+        phone1.setPhoneNumber("Phone number: (312)588-2300");
         phone1.setOwner("John Cena");
 
 
